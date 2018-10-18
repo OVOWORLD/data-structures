@@ -1,0 +1,219 @@
+#include <wx/wx.h>
+
+class MyApp: public wxApp
+    {
+        virtual bool OnInit();
+    };
+    
+class MyFrame: public wxFrame
+{
+    private:
+        DECLARE_EVENT_TABLE() //To declare events items
+    
+    public:
+        MyFrame(const wxString& title, const wxPoint& pos, 
+                const wxSize& size);
+        
+        void OnFile(wxCommandEvent& event); 	//handle for File function
+        void OnDisplayFile(wxCommandEvent& event);//handle for Display File function
+        void OnQueue(wxCommandEvent& event); //handle for Queue function  
+	void OnDeque(wxCommandEvent& event); //handle for Deque function
+	void OnPriorityQueue(wxCommandEvent& event); //handle for Priority Queue function
+	void OnStack(wxCommandEvent& event); //handle for Stack function
+	void OnBST(wxCommandEvent& event); //handle for BST function
+	void OnAVLTree(wxCommandEvent& event); // handle for AVLTree function
+	void OnHeap(wxCommandEvent& event);  // handle for Heap function
+	void OnRBTree(wxCommandEvent& event); //handle for RBTree function
+	void OnSplay(wxCommandEvent& event); //handle for Splay function
+	void OnSet(wxCommandEvent& event);  //handle for Set function
+	void OnHelp(wxCommandEvent& event); //handle for Help function
+    };
+    
+DECLARE_APP(MyApp)		// Declare Application class
+IMPLEMENT_APP(MyApp)		// Create Application class object
+
+
+enum
+        {
+            ID_File = wxID_HIGHEST + 1,
+            ID_DisplayFile,
+	    ID_Queue,
+	    ID_Deque,
+	    ID_PriorityQueue,
+	    ID_Stack,
+	    ID_BST,
+	    ID_AVLTree,
+	    ID_Heap,
+	    ID_RBTree,
+	    ID_Splay,
+	    ID_Set,
+            ID_Help,
+        };
+
+BEGIN_EVENT_TABLE ( MyFrame, wxFrame )
+        EVT_MENU ( ID_File, MyFrame::OnFile )
+	EVT_MENU ( ID_DisplayFile, MyFrame::OnDisplayFile )
+	EVT_MENU ( ID_Queue, MyFrame::OnQueue )
+	EVT_MENU ( ID_Deque, MyFrame::OnDeque )
+	EVT_MENU ( ID_PriorityQueue, MyFrame::OnPriorityQueue )
+	EVT_MENU ( ID_Stack, MyFrame::OnStack )
+        EVT_MENU ( ID_BST, MyFrame::OnBST )
+        EVT_MENU ( ID_AVLTree, MyFrame::OnAVLTree )
+	EVT_MENU ( ID_Heap, MyFrame::OnHeap )
+	EVT_MENU ( ID_RBTree, MyFrame::OnRBTree )
+	EVT_MENU ( ID_Splay, MyFrame::OnSplay )
+	EVT_MENU ( ID_Set, MyFrame::OnSet )
+	EVT_MENU ( ID_Help, MyFrame::OnHelp )
+END_EVENT_TABLE () 
+
+
+
+bool MyApp::OnInit()
+    {
+        // Create the main application window
+        MyFrame *frame = new MyFrame( wxT("COMP2611 – Cricket Lovely Cricket"), wxPoint(50,50), 
+                                      wxSize(500,400) );
+    
+        // Display the window
+        frame->Show(TRUE);
+    
+        SetTopWindow(frame);
+    
+        return TRUE;
+    
+    }
+    
+   MyFrame::MyFrame ( const wxString& title, const wxPoint& pos, const wxSize& size) : 
+                    wxFrame((wxFrame *)NULL, -1, title, pos, size)
+    {
+        // Set the frame icon - optional
+        SetIcon(wxIcon(wxT("uwiIcon.xpm")));
+    
+        // Create a "File" main-menu item
+        wxMenu *menuFile = new wxMenu;
+	wxMenu *menuDisplayFile = new wxMenu;
+	wxMenu *menuQueue = new wxMenu;
+	wxMenu *menuDeque = new wxMenu;
+	wxMenu *menuPriorityQueue = new wxMenu;
+	wxMenu *menuStack = new wxMenu;
+	wxMenu *menuBST = new wxMenu;
+	wxMenu *menuAVLTree = new wxMenu;
+	wxMenu *menuHeap = new wxMenu;
+	wxMenu *menuRBTree = new wxMenu;
+	wxMenu *menuSplay= new wxMenu;
+	wxMenu *menuSet = new wxMenu;
+	wxMenu *menuHelp= new wxMenu;
+    /*
+        //Append menu items (About and Exit) to the "File" menu item
+        menuFile->Append( ID_About, wxT("&About...") );
+        menuFile->AppendSeparator();
+        menuFile->Append( ID_Quit, wxT("E&xit") );
+    
+        //Create a "Help" main-menu item
+        wxMenu *menuHelp = new wxMenu;
+    
+        //Append "Help" sub-menu item to it 
+        menuHelp->Append(ID_Help, wxT("&Help..."));
+    
+        //Append "About" sub-menu item to it 
+        menuHelp->Append(ID_About, wxT("&About"));*/
+    
+        //Create a Main menu bar
+        wxMenuBar *menuBar = new wxMenuBar; 
+    
+        //Append the main menu items ("File" and "Help") to it
+        menuBar->Append( menuFile, wxT("&File") );
+        menuBar->Append( menuDisplayFile, wxT("&Display File") );
+	menuBar->Append( menuQueue, wxT("&Queue") );
+	menuBar->Append( menuDeque, wxT("&Deque") );
+	menuBar->Append( menuPriorityQueue, wxT("&Priority Queue") );
+	menuBar->Append( menuStack, wxT("&Stack") );
+	menuBar->Append( menuBST, wxT("&BST") );
+	menuBar->Append( menuAVLTree, wxT("&AVL Tree") );
+	menuBar->Append( menuHeap, wxT("&Heap") );
+	menuBar->Append( menuRBTree, wxT("&RB Tree") );
+	menuBar->Append( menuSplay, wxT("&Splay") );
+	menuBar->Append( menuSet, wxT("&Set") );
+	menuBar->Append( menuHelp, wxT("&Help") );
+    
+        // ... and now... attach this main menu bar to the frame
+        SetMenuBar( menuBar );
+    
+        // Create a status bar just for fun
+        CreateStatusBar(3);
+    
+        //Put something in the first section of the status bar
+        SetStatusText( wxT("Ready..."),0 );
+    
+        //Put something in the second section of the status bar
+        SetStatusText( wxT("Nirisi Marshall"), 1);
+	
+	SetStatusText(wxT("417002395"),2);
+    
+    } 
+    
+    void MyFrame::OnFile(wxCommandEvent& WXUNUSED(event))
+    {
+       
+    }
+    
+    
+void MyFrame::OnDisplayFile ( wxCommandEvent& WXUNUSED ( event ) )
+    {
+        
+    }
+
+
+void MyFrame::OnQueue( wxCommandEvent& WXUNUSED ( event ) )
+    {
+        
+    }
+    
+void MyFrame::OnDeque( wxCommandEvent& WXUNUSED ( event ) )
+    {
+        
+    }
+
+ void MyFrame::OnPriorityQueue ( wxCommandEvent& WXUNUSED ( event ) )
+    {
+        
+    }
+    
+void MyFrame::OnStack ( wxCommandEvent& WXUNUSED ( event ) )
+    {
+        
+    }
+    
+void MyFrame::OnBST ( wxCommandEvent& WXUNUSED ( event ) )
+    {
+        
+    }
+    
+void MyFrame::OnAVLTree ( wxCommandEvent& WXUNUSED ( event ) )
+    {
+        
+    }
+    
+void MyFrame::OnHeap ( wxCommandEvent& WXUNUSED ( event ) )
+    {
+        
+    }
+    
+void MyFrame::OnRBTree ( wxCommandEvent& WXUNUSED ( event ) )
+    {
+        
+    }
+
+void MyFrame::OnSplay ( wxCommandEvent& WXUNUSED ( event ) )
+    {
+        
+    }
+    
+void MyFrame::OnSet ( wxCommandEvent& WXUNUSED ( event ) )
+    {
+        
+    }
+ void MyFrame::OnHelp ( wxCommandEvent& WXUNUSED ( event ) )
+    {
+        
+    }   
