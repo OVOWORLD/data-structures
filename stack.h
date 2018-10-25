@@ -2,7 +2,7 @@
 #include <string> 
 
 
-class Node
+/*class Node
 	{
    		private:
             int rank;
@@ -49,7 +49,7 @@ Node::Node ( int place, string player, string country, int runs,
     ostringstream convert;
     convert << x;
     return convert.str();
-  }*/
+  }
 
 string Node::to_string ( int number )
     {
@@ -111,7 +111,7 @@ string Node::getData()
             score       = runs;
             opponent    = adversary;
             year        = yr;
-    }
+    }*/
    
     
 class Stack
