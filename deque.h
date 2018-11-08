@@ -234,11 +234,10 @@ string 	Deque::dequeueHead()
 	}
 	
 	//cur = prev-> getNext();
+	  tail = prev;
 	prev-> setNext(NULL);
-	//tail = prev;
 	string str = cur->getData();
-	//string str = tail;
-	delete tail;
+	delete cur;
 	return str;
 	
   }
