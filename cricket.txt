@@ -1,0 +1,101 @@
+Rank	 Name	 		Nationality	Score	Opponent	Year
+10,	 S.P.D. Smith,	 	Australia,	 936,	England,	2015
+21,	 J.E. Root,	 	England,	 917,	Australia,	2015
+35,	 K.S. Williamson,	New Zealand,	 893,	Australia,	2015
+11,	 A.B. de Villiers,	South Africa,	 935,	Australia,	2014
+44,	 D.A. Warner,	 	Australia,	 880,	India,		2014
+47,	 A.D. Mathews,	 	Sri Lanka,	 877,	New Zealand,	2014
+75,	 Misbah-ul-Haq,	 	Pakistan,	 842,	New Zealand,	2014
+28,	 H.M. Amla,	 	South Africa,	 907,	Pakistan,	2013
+57,	 R.L. Taylor,	 	New Zealand,	 871,	West Indies,	2013
+68,	 C.A. Pujara,	 	India,	 	 851,	South Africa,	2013
+30,	 M.J. Clarke,	 	Australia,	 900,	Sri Lanka,	2012
+53,	 A.N. Cook,	 	England,	 874,	India,		2012
+64,	 I.J.L. Trott,	 	England,	 856,	Sri Lanka,	2011
+83,	 I.R. Bell,	 	England,	 822,	India,		2011
+62,	 V. Sehwag,	 	India,	 	 866,	Sri Lanka,	2010
+74,	 G.C. Smith,	 	South Africa,	 843,	England,	2010
+95,	 S.M. Katich,	 	Australia,	 807,	Pakistan,	2010
+39,	 G. Gambhir,		India,	 	 886,	Sri Lanka,	2009
+42,	 D.P. Jayawardene,	Sri Lanka,	 883,	India,		2009
+44,	 Younus Khan,	 	Pakistan,	 880,	Sri Lanka,	2009
+19,	 M.E.K. Hussey,	 	Australia,	 921,	West Indies,	2008
+29,	 S. Chanderpaul,	West Indies,	 901,	New Zealand,	2008
+6,	 K.C. Sangakkara,	Sri Lanka,	 938,	England,	2007
+11,	 J.H. Kallis,	 	South Africa,	 935,	New Zealand,	2007
+27,	 K.P. Pietersen,	England,	 909,	West Indies,	2007
+3,	 R.T. Ponting,	 	Australia,	 942,	England,	2006
+14,	 Mohammad Yousuf,	Pakistan,	 933,	West Indies,	2006
+36,	 R. Dravid,	 	India,	 	 892,	Pakistan,	2005
+59,	 Inzamam-ul-Haq,	Pakistan,	 870,	England,	2005
+70,	 D.R. Martyn,	 	Australia,	 848,	New Zealand,	2005
+87,	 M.E. Trescothick,	England,	 818,	Pakistan,	2005
+26,	 B.C. Lara,	 	West Indies,	 911,	South Africa,	2004
+79,	 H.H. Gibbs,	 	South Africa,	 825,	West Indies,	2004
+50,	 M.P. Vaughan,	 	England,	 876,	Australia,	2003
+11,	 M.L. Hayden,	 	Australia,	 935,	England,	2002
+31,	 S.R. Tendulkar,	India,	 	 898,	Zimbabwe,	2002
+53,	 A.C. Gilchrist,	Australia,	 874,	South Africa,	2002
+33,	 A. Flower,	 	Zimbabwe,	 895,	South Africa,	2001
+81,	 Saeed Anwar,	 	Pakistan,	 824,	Australia,	1999
+33,	 S.R. Waugh,	 	Australia,	 895,	England,	1997
+90,	 J.C. Adams,	 	West Indies,	 813,	Australia,	1995
+56,	 G.A. Gooch,	 	England,	 873,	Pakistan,	1992
+93,	 R.A. Smith,	 	England,	 809,	West Indies,	1991
+41,	 Javed Miandad,	 	Pakistan,	 885,	New Zealand,	1989
+50,	 R.B. Richardson,	West Indies,	 876,	India,		1989
+76,	 D.B. Vengsarkar,	India,	 	 837,	New Zealand,	1988
+83,	 D.I. Gower,	 	England,	 822,	West Indies,	1986
+72,	 C.G. Greenidge,	West Indies,	 844,	England,	1984
+87,	 C.H. Lloyd,	 	West Indies,	 818,	India,		1983
+97,	 Zaheer Abbas,	 	Pakistan,	 803,	India,		1983
+91,	 I.T. Botham,	 	England,	 811,	India,		1982
+6,	 I.V.A. Richards,	West Indies,	 938,	England,	1981
+47,	 A.R. Border,	 	Australia,	 877,	England,	1981
+77,	 K.J. Hughes,	 	Australia,	 828,	India,		1981
+96,	 G.P. Howarth,	 	New Zealand,	 804,	India,		1981
+23,	 S.M. Gavaskar,		India,	 	 916,	England,	1979
+57,	 G.R. Viswanath,	India,	 	 871,	Australia,	1979
+42,	 G.S. Chappell,	 	Australia,	 883,	Pakistan,	1977
+62,	 A.I. Kallicharran,	West Indies,	 866,	Australia,	1975
+91,	 I.M. Chappell,	 	Australia,	 811,	West Indies,	1975
+71,	 G.M. Turner,	 	New Zealand,	 845,	Australia,	1974
+79,	 D.L. Amiss,	 	England,	 825,	India,		1974
+15,	 R.G. Pollock,	 	South Africa,	 927,	Australia,	1970
+17,	 K.D. Walters,	 	Australia,	 922,	South Africa,	1970
+46,	 W.M. Lawry,	 	Australia,	 878,	West Indies,	1969
+87,	 R.M. Cowper,	 	Australia,	 818,	India,		1968
+6,	 G.S. Sobers,	 	West Indies,	 938,	India,		1967
+67,	 R.B. Simpson,	 	Australia,	 853,	South Africa,	1967
+82,	 C.C. Hunte,	 	West Indies,	 823,	England,	1966
+25,	 K.F. Barrington,	England,	 914,	New Zealand,	1965
+52,	 R.B. Kanhai,		West Indies,	 875,	England,	1963
+59,	 E.R. Dexter,	 	England,	 870,	Australia,	1963
+86,	 Hanif Mohammad,	Pakistan,	 819,	India,		1960
+37,	 C.C. McDonald,	 	Australia,	 891,	Pakistan,	1959
+53,	 M.C. Cowdrey,	 	England,	 874,	New Zealand,	1958
+98,	 P.E. Richardson,	England,	 802,	New Zealand,	1958
+5,	 P.B.H. May,	 	England,	 941,	Australia,	1956
+15,	 E.D. Weekes,	 	West Indies,	 927,	New Zealand,	1956
+6,	 C.L. Walcott,	 	West Indies,	 938,	Australia,	1955
+2,	 L. Hutton,	 	England,	 945,	West Indies,	1954
+77,	 F.M.M. Worrell,	West Indies,	 828,	England,	1954
+19,	 R.N. Harvey,	 	Australia,	 921,	South Africa,	1953
+94,	 J.B. Stollmeyer,	West Indies,	 808,	India,		1953
+61,	 V.S. Hazare,	 	India,	 	 869,	Pakistan,	1952
+65,	 A.L. Hassett,	 	Australia,	 854,	West Indies,	1952
+17,	 A.D. Nourse,	 	South Africa,	 922,	England,	1951
+69,	 A.R. Morris,	 	Australia,	 850,	West Indies,	1951
+1,	 D.G. Bradman,		Australia,	 961,	India,		1948
+21,	 D.C.S. Compton,	England,	 917,	Australia,	1948
+24,	 G.A. Headley,	 	West Indies,	 915,	England,	1948
+65,	 S.J. McCabe,	 	Australia,	 854,	England,	1938
+32,	 W.R. Hammond,	 	England,	 897,	New Zealand,	1933
+38,	 H. Sutcliffe,	 	England,	 888,	Australia,	1933
+85,	 W.M. Woodfull,		Australia,	 820,	South Africa,	1932
+100,	 C.G. Macartney,	Australia,	 800,	England,	1926
+72,	 H.W. Taylor,	 	South Africa,	 844,	England,	1923
+3,	 J.B. Hobbs,	 	England,	 942,	Australia,	1912
+47,	 G.A. Faulkner,	 	South Africa,	 877,	Australia,	1912
+99,	 V.T. Trumper,	 	Australia,	 801,	England,	1905
+39,	 C. Hill,	 	Australia,	 886,	South Africa,	1902
